@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+.banner{
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(/Img/Untitled.png);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 40px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.content h2{
+    font-size: 50px;
+    margin: 40px;
+    margin-left: 100px;
+    font-weight: 100;
+    line-height: 25px;
+}
+.content p{
+    margin: 40px;
+    margin-left: 100px;
+    font-weight: 100;
+    line-height: 25px;
+}
+.content .btn{
+    display: inline-block;
+    background: #317dd6;
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+    margin-left: 100px;
+}
+.faiz-foto{
+    height: 50%;
+    position: absolute;
+    bottom: 170px;
+    right: 160px;
+}
+.content2{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+    color: #fff;
+}
+.content2 h3{
+    font-size: 30px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.content2 p{
+    margin-left: 100px;
+    margin-right: 1000px;
+    margin-top: 20px;
+    font-weight: 100;
+    line-height: 25px;
+}
+.justify{
+    text-align: justify;
+}
+.rame2{
+    height: 30%;
+    position: absolute;
+    top: 720px;
+    bottom: 170px;
+    right: 180px;
+}
+.logobawah{
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+.instagram{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+.twitter{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+.linkedin{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+.whatsapp{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 47px;
+}
+.content-cv{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+    color: #fff;
+}
+.content-cv h1{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.CV-faiz{
+    height: 70%;
+    margin-left: 120px;
+    margin-top: 10px;
+}
